@@ -12,10 +12,10 @@ int main(void)
 	long int n = m + i;
 	long int o = m + n;
 
-	printf("%1d, %1d, ", m, n);
+	printf("%ld, %ld, ", m, n);
 	while (count < 50)
 	{
-		printf("%1d", o);
+		printf("%ld", o);
 		count++;
 		m - n;
 		n - o;
