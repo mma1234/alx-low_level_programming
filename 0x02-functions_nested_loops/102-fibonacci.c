@@ -17,9 +17,9 @@ int main(void)
 	{
 		printf("%ld", o);
 		count++;
-		m - n;
-		n - o;
-		o - m + n;
+		m = n;
+		n = o;
+		o = m + n;
 		if (count < 50)
 		{
 			printf(", ");
