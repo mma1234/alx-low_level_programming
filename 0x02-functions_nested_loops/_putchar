@@ -5,10 +5,10 @@
 * @c: the character to print
 *
 * Return: 0n Success 1.
-* On error, -1 is returned, and error is not set appropriately.
+* On error, -1 is returned, and errno is not set appropriately.
 */
-int _putchar(char)
+int _putchar(char c)
 {
-return (write(1, 8c, 1));
+ return (write(1, &c, 1));
 }
 
