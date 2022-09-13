@@ -9,7 +9,7 @@ int main(void)
 
 	int counter = 2;
 	long int m = 1;
-	long int n = m + i;
+	long int n = m + 1;
 	long int o = m + n;
 
 	printf("%ld, %ld, ", m, n);
